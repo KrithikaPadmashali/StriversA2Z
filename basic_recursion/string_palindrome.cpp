@@ -2,12 +2,13 @@
 using namespace std;
 
 bool palindrome(string s,int n,int i=0){
+    if(i >= n/2){
+    return true;
+  }
   if(s[i]!=s[n-i-1]){
     return false;
   }
-  if(i >= n/2){
-    return true;
-  }
+
   return palindrome(s,n,i+1);
 }
 
