@@ -28,10 +28,12 @@ void less_time_print_all_divisions(int n){
     cout<<it<<" ";
   }
 }
+//O(sqrt(n))
 int main(){
   int n;
-  cout<<"Enter a number: "<<endl;
+  cout<<"Enter a n3umber: "<<endl;
   cin>>n;
   print_all_divisions(n);
+  cout<<endl;
   less_time_print_all_divisions(n);
 }

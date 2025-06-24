@@ -3,7 +3,7 @@ using namespace std;
 
 void counting_n_numbers(int n,int count=0){
   
-  if(count==n){
+  if(count==n){   //base case
      return;
   }
  cout<<count<<" ";
