@@ -10,6 +10,7 @@ sorting then taking the arr ele off position n-1
 
 // optimal
 /* seting largest=arr[0] then going through all the elements in the array  while checking iflargest or not */
+
 int largest_element_in_array(int arr[], int n)
 {
 
